@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Widget</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body class="bg-zinc-100 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-200">
+    <div class="card">
+        <div class="max-w-4xl mx-auto p-6 bg-white dark:bg-zinc-800 shadow-lg rounded-lg">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0 md:mr-4">
+                    <h1 class="text-2xl font-bold">Welcome!</h1>
+                    <div class="mt-4">
+                        <img src="assets/bvc.png" alt="Birdvision Logo" class="mt-2" style="height: 5.8rem; width: 13.5rem">
+                        <img src="assets/whatsapp.png" alt="WhatsApp Logo" class="mt-2">
+                        <img src="assets/route.png" alt="Routemobile Logo" class="mt-2">
+                    </div>
+                </div>
+                <div class="w-full md:w-2/3">
+                    <div id="agenda" class="bg-blue-500 dark:bg-blue-700 text-white p-4 rounded-lg">
+                        <div id="formContainer">
+                            <form>
+                                <h2>Event Registration Form</h2>
+                                <input class="form-control" type="text" placeholder="Enter name">
+                                <input class="form-control" type="email" placeholder="Enter business email ID">
+                                <input class="form-control" type="tel" maxlength="10" placeholder="Enter mobile number">
+                                <input class="form-control" type="text" placeholder="Enter company name">
+                                <input class="form-control" type="text" placeholder="Enter designation">
+                                <input class="form-control" type="url" placeholder="Enter LinkedIn URL">
+                                <a href="thanks.html"><button type="button" class="button">
+                                   SUBMIT
+                                </button></a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

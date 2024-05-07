@@ -1,0 +1,214 @@
+/* Color Palette */
+:root {
+    --primary-color: #007aff; 
+    --secondary-color: #e0e0e0;
+    --text-color: #333;
+    --background-color: #f4f4f4;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom left,#797ef6,#1aa7ec,#4adede);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-size: medium;
+    text-align: center;
+}
+
+li{
+    font-size: small;
+    margin-bottom: 1rem;
+}
+
+ul{
+    margin-bottom: 2rem;
+}
+
+h5{
+    font-size: smaller;
+    margin: 0 0 0.5rem 2rem;
+}
+
+p{
+    font-size: 0.9rem;
+    text-align: left;
+    margin: 0.1rem 1rem 1.5rem 2rem;
+}
+
+.card {
+    background-image: url("assets/background.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 900px;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-control{
+    background-color: white;
+    font-size: 0.8rem;
+    height: 1rem;
+    margin: 0.6rem auto 0.5rem auto;
+    padding: 0.62rem 1.5rem;
+    width: 80%;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    box-shadow: 0 0.12rem 0.25rem rgba(0, 0, 0, 0.2);
+  }
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.mt-2 {
+    height: 2.6rem;
+    width: 12rem;
+    margin: 0.5rem auto 2rem auto;
+    display: block; 
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.text-2xl {
+    font-size: 2rem;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.bg-blue-500 {
+    background-color: var(--primary-color);
+}
+
+.text-white {
+    color: #fff;
+}
+
+.rounded-lg {
+    border-radius: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.nxt {
+    max-height: 2.5rem;
+    max-width: 6rem;
+    margin-left: 2rem;
+}
+
+.exclusive {
+    max-height: 2rem;
+    max-width: 5.5rem;
+    margin-left: 5rem;
+    margin-right: 2rem;
+}
+
+#registrationForm {
+    background-color: #007aff;
+    font-size: 0.8rem;
+    height: 1.7rem;
+    margin: 0.6rem;
+    padding: 0.62rem 0.9rem;
+    width: 100%;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    box-shadow: 0 0.12rem 0.25rem rgba(0, 0, 0, 0.2);
+}
+
+button{
+    text-align: center;
+    background-color: white;
+    color: #007aff;
+    border:none;
+    margin: 2rem 4.5rem 1rem 4rem;
+    padding: 0.3rem 5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007aff;
+    color: white;
+    border: 1px solid white;
+}
+
+.w-full{
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+    }
+    h1{
+        text-align: center;
+    }
+    .exclusive{
+        margin: 0 1rem 0 2rem;
+    }
+    button{
+        margin: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .w-full {
+        width: 50%;
+    }
+    .card{
+        width: 65%;
+    }
+    h1{
+        margin: 2.5rem 6rem 1.5rem 6rem  ;
+    }
+    .form-control{
+        margin: 0.6rem 1rem 0.5rem 1rem;
+
+    }
+    #thankYouContainer button{
+        margin: 1rem 5.2rem 2rem 5.5rem;
+    }
+    
+}
+/*button{
+    margin: 0.1rem 4.5rem auto 4rem;
+}*/
