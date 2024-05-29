@@ -92,7 +92,7 @@ p{
 .mt-2 {
     height: 2.6rem;
     width: 12rem;
-    margin: 0.5rem auto 2rem auto;
+    margin: 0.5rem auto 3rem auto;
     display: block; 
 }
 
@@ -183,13 +183,28 @@ button:hover {
         text-align: center;
     }
     .exclusive{
-        margin: 0 1rem 0 2rem;
+        margin: 0 1rem 0 1rem;
     }
     button{
         margin: 2rem;
     }
     .thankyou{
-        width: 272px;
+        width: 285px;
+    }
+    #thankYouContainer button{
+        margin: 1rem 2.5rem 1rem 2.5rem;
+    }
+    .nxt {
+        max-height: 2rem;
+        max-width: 4rem;
+        margin-left: 2rem;
+    }
+    
+    .exclusive {
+        max-height: 1.5rem;
+        max-width: 5rem;
+        margin-left: 5rem;
+        margin-right: 2rem;
     }
 }
 
@@ -200,6 +215,7 @@ button:hover {
     .card{
         width: 65%;
     }
+    
     h1{
         margin: 2.5rem 6rem 1.5rem 6rem  ;
     }
@@ -208,10 +224,10 @@ button:hover {
 
     }
     #thankYouContainer button{
-        margin: 1rem 5.2rem 2rem 5.5rem;
+        margin: 1rem 4.7rem 1rem 4.5rem;
     }
     
 }
 /*button{
-    margin: 0.1rem 4.5rem auto 4rem;
+    margin: 0.1rem 4.5rem auto 4rem;    1rem 5.2rem 2rem 5.5rem;
 }*/
